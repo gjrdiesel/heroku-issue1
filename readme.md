@@ -1,66 +1,105 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
-
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
-
-## About Laravel
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[CMS Max](https://www.cmsmax.com/)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-- **[Romega Software](https://romegasoftware.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+remote: Compressing source files... done.        
+remote: Building source:        
+remote: 
+remote: -----> Building on the Heroku-20 stack        
+remote: -----> Determining which buildpack to use for this app        
+remote:  !     Warning: Multiple default buildpacks reported the ability to handle this app. The first buildpack in the list below will be used.        
+remote: 			Detected buildpacks: PHP,Node.js        
+remote: 			See https://devcenter.heroku.com/articles/buildpacks#buildpack-detect-order        
+remote: -----> PHP app detected        
+remote: -----> Bootstrapping...        
+remote: -----> Installing platform packages...        
+remote: [1;31m        
+remote:  !     ERROR: Failed to install system packages!        
+remote:  !             
+remote:  !     Your platform requirements (for runtimes and extensions) could        
+remote:  !     not be resolved to an installable set of dependencies, or a        
+remote:  !     platform package repository was unreachable.        
+remote:  !             
+remote:  !     This usually means that you (or packages you are using) depend        
+remote:  !     on a combination of PHP versions and/or extensions that are        
+remote:  !     currently not available on Heroku.        
+remote:  !             
+remote:  !     The following is the full output from the installation attempt:        
+remote:  !             
+remote:  !     > You are using Composer 1 which is deprecated. You should upgrade to Composer 2, see https://blog.packagist.com/deprecating-composer-1-support/        
+remote:  !     > Loading repositories with available runtimes and extensions        
+remote:  !     > Updating dependencies        
+remote:  !     > Your requirements could not be resolved to an installable set of packages.        
+remote:  !     >         
+remote:  !     >   Problem 1        
+remote:  !     >     - symfony/polyfill-ctype v1.24.0 requires php >=7.1 -> satisfiable by php[7.3.24, 7.3.25, 7.3.26, 7.3.27, 7.3.28, 7.3.29, 7.3.30, 7.3.31, 7.3.32, 7.3.33, 7.4.12, 7.4.13, 7.4.14, 7.4.15, 7.4.16, 7.4.19, 7.4.20, 7.4.21, 7.4.22, 7.4.23, 7.4.24, 7.4.25, 7.4.26, 7.4.27, 8.0.0, 8.0.0RC4, 8.0.1, 8.0.10, 8.0.11, 8.0.12, 8.0.13, 8.0.14, 8.0.2, 8.0.3, 8.0.6, 8.0.7, 8.0.8, 8.0.9, 8.1.0, 8.1.1].        
+remote:  !     >     - don't install symfony/polyfill-ctype v1.24.0|don't install php 7.3.24        
+remote:  !     >     - don't install symfony/polyfill-ctype v1.24.0|don't install php 7.3.25        
+remote:  !     >     - don't install symfony/polyfill-ctype v1.24.0|don't install php 7.3.26        
+remote:  !     >     - don't install symfony/polyfill-ctype v1.24.0|don't install php 7.3.27        
+remote:  !     >     - don't install symfony/polyfill-ctype v1.24.0|don't install php 7.3.28        
+remote:  !     >     - don't install symfony/polyfill-ctype v1.24.0|don't install php 7.3.29        
+remote:  !     >     - don't install symfony/polyfill-ctype v1.24.0|don't install php 7.3.30        
+remote:  !     >     - don't install symfony/polyfill-ctype v1.24.0|don't install php 7.3.31        
+remote:  !     >     - don't install symfony/polyfill-ctype v1.24.0|don't install php 7.3.32        
+remote:  !     >     - don't install symfony/polyfill-ctype v1.24.0|don't install php 7.3.33        
+remote:  !     >     - don't install symfony/polyfill-ctype v1.24.0|don't install php 7.4.12        
+remote:  !     >     - don't install symfony/polyfill-ctype v1.24.0|don't install php 7.4.13        
+remote:  !     >     - don't install symfony/polyfill-ctype v1.24.0|don't install php 7.4.14        
+remote:  !     >     - don't install symfony/polyfill-ctype v1.24.0|don't install php 7.4.15        
+remote:  !     >     - don't install symfony/polyfill-ctype v1.24.0|don't install php 7.4.16        
+remote:  !     >     - don't install symfony/polyfill-ctype v1.24.0|don't install php 7.4.19        
+remote:  !     >     - don't install symfony/polyfill-ctype v1.24.0|don't install php 7.4.20        
+remote:  !     >     - don't install symfony/polyfill-ctype v1.24.0|don't install php 7.4.21        
+remote:  !     >     - don't install symfony/polyfill-ctype v1.24.0|don't install php 7.4.22        
+remote:  !     >     - don't install symfony/polyfill-ctype v1.24.0|don't install php 7.4.23        
+remote:  !     >     - don't install symfony/polyfill-ctype v1.24.0|don't install php 7.4.24        
+remote:  !     >     - don't install symfony/polyfill-ctype v1.24.0|don't install php 7.4.25        
+remote:  !     >     - don't install symfony/polyfill-ctype v1.24.0|don't install php 7.4.26        
+remote:  !     >     - don't install symfony/polyfill-ctype v1.24.0|don't install php 7.4.27        
+remote:  !     >     - don't install symfony/polyfill-ctype v1.24.0|don't install php 8.0.0        
+remote:  !     >     - don't install symfony/polyfill-ctype v1.24.0|don't install php 8.0.0RC4        
+remote:  !     >     - don't install symfony/polyfill-ctype v1.24.0|don't install php 8.0.1        
+remote:  !     >     - don't install symfony/polyfill-ctype v1.24.0|don't install php 8.0.10        
+remote:  !     >     - don't install symfony/polyfill-ctype v1.24.0|don't install php 8.0.11        
+remote:  !     >     - don't install symfony/polyfill-ctype v1.24.0|don't install php 8.0.12        
+remote:  !     >     - don't install symfony/polyfill-ctype v1.24.0|don't install php 8.0.13        
+remote:  !     >     - don't install symfony/polyfill-ctype v1.24.0|don't install php 8.0.14        
+remote:  !     >     - don't install symfony/polyfill-ctype v1.24.0|don't install php 8.0.2        
+remote:  !     >     - don't install symfony/polyfill-ctype v1.24.0|don't install php 8.0.3        
+remote:  !     >     - don't install symfony/polyfill-ctype v1.24.0|don't install php 8.0.6        
+remote:  !     >     - don't install symfony/polyfill-ctype v1.24.0|don't install php 8.0.7        
+remote:  !     >     - don't install symfony/polyfill-ctype v1.24.0|don't install php 8.0.8        
+remote:  !     >     - don't install symfony/polyfill-ctype v1.24.0|don't install php 8.0.9        
+remote:  !     >     - don't install symfony/polyfill-ctype v1.24.0|don't install php 8.1.0        
+remote:  !     >     - don't install symfony/polyfill-ctype v1.24.0|don't install php 8.1.1        
+remote:  !     >     - Installation request for symfony/polyfill-ctype v1.24.0 -> satisfiable by symfony/polyfill-ctype[v1.24.0].        
+remote:  !     >         
+remote:  !     > Running update with --no-dev does not mean require-dev is ignored, it just means the packages will not be installed. If dev requirements are blocking the update you have to resolve those problems.        
+remote:  !             
+remote:  !     For reference, the following runtimes are currently available:        
+remote:  !             
+remote:  !     PHP:  8.1.1, 8.1.0, 8.0.14, 8.0.13, 8.0.12, 8.0.11, 8.0.10,         
+remote:  !     8.0.9, 8.0.8, 8.0.7, 8.0.6, 8.0.3, 8.0.2, 8.0.1, 8.0.0,         
+remote:  !     8.0.0RC4, 7.4.27, 7.4.26, 7.4.25, 7.4.24, 7.4.23, 7.4.22,         
+remote:  !     7.4.21, 7.4.20, 7.4.19, 7.4.16, 7.4.15, 7.4.14, 7.4.13,         
+remote:  !     7.4.12, 7.3.33, 7.3.32, 7.3.31, 7.3.30, 7.3.29, 7.3.28,         
+remote:  !     7.3.27, 7.3.26, 7.3.25, 7.3.24        
+remote:  !             
+remote:  !     Please verify that all requirements for runtime versions in        
+remote:  !     'composer.lock' are compatible with the list above, and ensure        
+remote:  !     all required extensions are available for the desired runtimes.        
+remote:  !             
+remote:  !     When choosing a PHP runtimes and extensions, please also ensure        
+remote:  !     they are available on your app's stack (heroku-20), and select        
+remote:  !     a different stack if needed after consulting the article below.        
+remote:  !             
+remote:  !     For a list of supported runtimes & extensions on Heroku, please        
+remote:  !     refer to: https://devcenter.heroku.com/articles/php-support        
+remote: [0m        
+remote:  !     Push rejected, failed to compile PHP app.        
+remote: 
+remote:  !     Push failed        
+remote: Verifying deploy...
+remote: 
+remote: !	Push rejected to lit-journey-37229.        
+remote: 
+To https://git.heroku.com/lit-journey-37229.git
+ ! [remote rejected] actual-laravel -> main (pre-receive hook declined)
+error: failed to push some refs to 'https://git.heroku.com/lit-journey-37229.git'
