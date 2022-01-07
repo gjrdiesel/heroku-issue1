@@ -1,17 +1,5 @@
 {
-    "name": "justin/heroku-issue1",
-    "autoload": {
-        "psr-4": {
-            "Justin\\HerokuIssue1\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Justin",
-            "email": "knoxxbox@gmail.com"
-        }
-    ],
     "require": {
-        "vlucas/phpdotenv": "^5.4"
+        "laravel/lumen-framework": "v8.3.4"
     }
 }
